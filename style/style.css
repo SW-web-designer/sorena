@@ -34,7 +34,7 @@ header {
 .logo {
     width: 5rem;
     background-color: #fff;
-    box-shadow: #313131;
+    border-radius: 1rem;
 }
 .name {
     color: #efefef;
@@ -54,7 +54,7 @@ header {
     height: 3rem;
     background-color: #121212;
     border: .15rem solid #81a0f6;
-    border-radius: .5px;
+    border-radius: .5rem;
     transition: all .2s ease;
 }
 .signin:hover, .signup:hover {
