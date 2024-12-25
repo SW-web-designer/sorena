@@ -63,7 +63,7 @@ header {
     color: var(--light-blue);
     border: .15rem solid var(--light-blue);
     border-radius: .7rem;
-    transition: all .2s ease;
+    transition: all .2s ease !important;
     margin: .3rem !important;
     padding: .2rem 1rem !important;
 }
