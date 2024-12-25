@@ -82,8 +82,9 @@ header {
     width: 100%;
     height: 100%;
     font-size: 2.25rem;
+    border-radius: .2rem;
     text-align: center;
-    transition: all .2s ease-in-out;
+    transition: all .12s ease-in-out;
     /* background-color: var(--light-blue); */
 }
 /* .item:hover {
