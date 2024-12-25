@@ -75,10 +75,11 @@ header {
 }
 .menu {
     display: flex;
+    margin-top: 1rem;
 }
 .item {
     width: 100%;
     background-color: var(--light-blue);
-    
+
 }
 /* .page {} */
