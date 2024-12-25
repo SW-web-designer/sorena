@@ -7,3 +7,41 @@
     margin: none;
     padding: none;
 }
+.container {
+    width: 135rem;
+    padding: .5rem;
+}
+header {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+}
+.header-up {
+    display: flex;
+    justify-content: space-between;
+}
+/* .logo-ctnr {} */
+.logo {
+    width: 5rem;
+    background-color: #fff;
+    box-shadow: #313131;
+}
+.name {
+    color: #efefef;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+.signin, .signup {
+    background-color: #121212;
+    border: .15rem solid #81a0f6;
+    border-radius: .5px;
+    transition: all .2s ease;
+}
+.signin:hover, .signup:hover {
+    background-color: #81a0f6;
+}
+/* .menu {} */
+/* .item {} */
+/* .page {} */
