@@ -10,6 +10,10 @@
     padding: none;
     font-family: "Ubuntu Sans";
 }
+a {
+    color: #a1d0fa;
+    text-decoration: none;
+}
 .container {
     width: 135rem;
     padding: .5rem;
