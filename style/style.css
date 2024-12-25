@@ -80,6 +80,7 @@ header {
 }
 .item {
     width: 100%;
+    text-align: center;
     /* background-color: var(--light-blue); */
 }
 .item:hover {
