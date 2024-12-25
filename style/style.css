@@ -75,7 +75,7 @@ header {
 }
 .menu {
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 .item {
     display: flex;
