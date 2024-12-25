@@ -47,19 +47,20 @@ header {
     font-size: 3rem;
 }
 .btn {
-    width: 6rem;
+    /* width: 6rem; */
     display: flex;
     justify-content: space-between;
 }
 .signin, .signup {
     display: block;
     font-size: 16px;
-    width: 3rem;
+    width: 4.5rem;
     height: 3rem;
     background-color: #121212;
     border: .15rem solid var(--light-blue);
     border-radius: .7rem;
     transition: all .2s ease;
+    margin: .1rem !important;
 }
 .signin:hover, .signup:hover {
     background-color: var(--light-blue);
