@@ -18,12 +18,9 @@
 a {
     color: var(--light-blue);
     text-decoration: none;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
 }
 .container {
-    width: 135rem;
+    width: 80rem;
     padding: .7rem;
 }
 header {
@@ -48,7 +45,6 @@ header {
 .name {
     color: #efefef;
     font-family: "Nova Square";
-    /* font-weight: 900; */
     font-size: 2.4rem;
 }
 .btn {
@@ -86,9 +82,13 @@ header {
     align-items: center;
     width: 100%;
     height: 100%;
-    font-size: 1.25rem;
+    font-size: 1rem;
     border-radius: .2rem;
     text-align: center;
     transition: all .12s ease-in-out;
 }
-/* .page {} */
+.page {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
