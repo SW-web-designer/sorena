@@ -47,8 +47,8 @@ header {
 .name {
     color: #efefef;
     font-family: "Nova Square";
-    font-weight: 900;
-    font-size: 3rem;
+    /* font-weight: 900; */
+    font-size: 2.4rem;
 }
 .btn {
     display: flex;
