@@ -73,6 +73,12 @@ header {
 .signin:hover a, .signup:hover a {
     color: #121212 !important;
 }
-/* .menu {} */
-/* .item {} */
+.menu {
+    display: flex;
+}
+.item {
+    width: 100%;
+    background-color: var(--light-blue);
+    
+}
 /* .page {} */
