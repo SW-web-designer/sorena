@@ -38,7 +38,7 @@ header {
 .logo {
     width: 5rem;
     background-color: #fff;
-    border-radius: 20rem/40%;
+    border-radius: 5/4;
 }
 .name {
     color: #efefef;
@@ -58,12 +58,12 @@ header {
     height: 3rem;
     background-color: #121212;
     border: .15rem solid var(--light-blue);
-    border-radius: .5rem;
+    border-radius: .7rem;
     transition: all .2s ease;
 }
 .signin:hover, .signup:hover {
     background-color: var(--light-blue);
-    color: #121212;
+    color: #121212 !important;
 }
 /* .menu {} */
 /* .item {} */
