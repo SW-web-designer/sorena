@@ -32,6 +32,7 @@ header {
 .name {
     color: #efefef;
     font-family: "Nova Square";
+    font-weight: 900;
 }
 .btn {
     width: 6rem;
