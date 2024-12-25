@@ -67,10 +67,10 @@ header {
     margin: .3rem !important;
     padding: 1rem .2rem !important;
 }
-.signin:hover, .signup:hover {
+.signin:hover, .signup:hover, .item:hover {
     background-color: var(--light-blue);
 }
-.signin:hover a, .signup:hover a {
+.signin:hover a, .signup:hover a, .item:hover a {
     color: #121212 !important;
 }
 .menu {
@@ -81,10 +81,11 @@ header {
 .item {
     width: 100%;
     text-align: center;
+    transition: all .2s ease-in-out;
     /* background-color: var(--light-blue); */
 }
-.item:hover {
+/* .item:hover {
     background-color: var(--light-blue);
     color: var(--header-bgc) !important;
-}
+} */
 /* .page {} */
