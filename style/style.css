@@ -80,9 +80,9 @@ header {
 }
 .item {
     width: 100%;
-    background-color: var(--light-blue);
+    /* background-color: var(--light-blue); */
 }
-.item::hover {
+.item:hover {
     background-color: var(--light-blue);
     color: var(--header-bgc) !important;
 }
