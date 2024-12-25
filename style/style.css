@@ -38,13 +38,13 @@ header {
 .logo {
     width: 5rem;
     background-color: #fff;
-    border-radius: 1rem;
+    border-radius: 20rem/40%;
 }
 .name {
     color: #efefef;
     font-family: "Nova Square";
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .btn {
     width: 6rem;
@@ -63,7 +63,7 @@ header {
 }
 .signin:hover, .signup:hover {
     background-color: var(--light-blue);
-    color: #000;
+    color: #121212;
 }
 /* .menu {} */
 /* .item {} */
