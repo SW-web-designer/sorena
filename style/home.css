@@ -1,0 +1,19 @@
+:root {
+    --first-sect-bg-color: #1a1a1a;
+    --first-sect-text-color: #d0d0d0;
+}
+
+.first-section {
+    background-color: var(--first-sect-bg-color);
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .title {} */
+/* .my-image {} */
+/* .first-sect-describe {} */
+/* .subtitle {} */
+/* .describe {} */
