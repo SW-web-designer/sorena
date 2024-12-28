@@ -10,12 +10,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
 }
 .title {
     font-size: 36px;
 }
 .my-image {
-    width: 50%;
+    margin: 1rem;
 }
 .first-sect-describe {
     color: #c9c9c9;
