@@ -23,6 +23,7 @@
 }
 /* .subtitle {} */
 .describe {
-    width: 100%;
-    text-overflow: ellipsis;
+    max-width: 85rem;
+    margin: .7rem;
+    text-overflow: clip;
 }
