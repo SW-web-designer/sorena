@@ -1,5 +1,5 @@
-### The Fonts Used in this Project:
+# The Fonts Used in this Project:
 
-> Ubuntu Sans
+#534 > Ubuntu Sans
 
 > ...
