@@ -51,7 +51,7 @@
 /* Second Section Styles */
 
 .second-section {
-    background-color: var(--header-bgc);
+    background-color: var(--darker-bgc-color);
     display: flex;
     justify-content: center;
 }
