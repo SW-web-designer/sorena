@@ -2,7 +2,10 @@
 
 :root {
     --light-blue: #a1d0fa;
-    --header-bgc: #121212;
+    --darker-bgc-color: #121212;
+    --lighter-bgc-color: #1a1a1a;
+    --primary-text-color: #d0d0d0;
+    --caption-text-color: #c9c9c9;
 }
 
 *,
@@ -14,6 +17,9 @@
     margin: 0;
     padding: 0;
     font-family: "Ubuntu Sans";
+}
+html {
+    background-color: var(--lighter-bgc-color);
 }
 a {
     color: var(--light-blue);
