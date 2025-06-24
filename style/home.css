@@ -1,13 +1,13 @@
 :root {
-    --first-sect-bg-color: #1a1a1a;
-    --first-sect-text-color: #d0d0d0;
+    --lighter-bgc-color: #1a1a1a;
+    --primary-text-color: #d0d0d0;
     --caption-text-color: #c9c9c9;
 }
 
 /* First Section Styles */
 
 .first-section {
-    background-color: var(--first-sect-bg-color);
+    background-color: var(--lighter-bgc-color);
     display: flex;
     justify-content: center;
 }
@@ -56,7 +56,7 @@
     justify-content: center;
 }
 .skills-name {
-    color: var(--first-sect-text-color);
+    color: var(--primary-text-color);
     text-align: center;
     margin: .5rem 0 3rem;
 }
