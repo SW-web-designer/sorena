@@ -55,18 +55,18 @@
     display: flex;
     justify-content: center;
 }
-.skills-name {
+.works-name {
     color: var(--primary-text-color);
     text-align: center;
     margin: .5rem 0 3rem;
 }
-.skill-cards {
+.work-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.skill {
+.work {
     width: 17rem;
     height: 25rem;
     background-color: #202020;
@@ -78,11 +78,11 @@
     filter: blur(2px) grayscale(.7);
     transition: all .2s ease-in-out;
 }
-.skill:hover {
+.work:hover {
     filter: none;
     transform: none;
 }
-.skill h4 {
+.work h4 {
     text-align: center;
     margin-bottom: 7.5rem;
     color: #fff;
@@ -97,4 +97,57 @@
     font-size: 18px;
     text-align: center;
     color: var(--caption-text-color);
+}
+
+/* Third Section Styles */
+
+.third-section {
+    background-color: var(--lighter-bgc-color);
+    display: flex;
+    justify-content: center;
+}
+.skills-name {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin: .5rem 0 3rem;
+}
+/* .skills-box {
+    display: flex;
+    flex-direction: column;
+} */
+.skill {
+    margin-bottom: -2px;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: var(--light-blue);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill:last-child {
+    margin-bottom: 2rem;
+}
+.skill-name {
+    color: var(--light-blue);
+    font-family: "Nova Square";
+    font-size: 2rem;
+}
+.skill-bar {
+    background-color: transparent;
+    width: 25rem;
+    height: 2rem;
+    border: .2rem solid var(--lighter-bgc-color);
+    border-radius: .7rem;
+    box-shadow: 0 0 0 .15rem var(--light-blue);
+    overflow: hidden;
+}
+.tracker {
+    background-color: var(--light-blue);
+    height: 100%;
+    border-radius: .2rem;
+}
+.percentage {
+    color: var(--primary-text-color);
+    font-size: 1.4rem;
 }
