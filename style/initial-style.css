@@ -29,6 +29,9 @@ a {
     width: 80rem;
     padding: .7rem;
 }
+
+/* Header Styles */
+
 header {
     background-color: #121212;
     display: flex;
@@ -101,6 +104,100 @@ header {
     padding-bottom: .3rem;
 }
 
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--lighter-bgc-color);
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: .125rem solid var(--light-blue);
+    margin-top: 1rem;
+}
+.about-short {
+    max-width: 35rem;
+}
+.about-short-title {
+    font-family: "Nova Square";
+    color: var(--light-blue);
+    margin-bottom: 1rem;
+}
+.about-short span.caption {
+    line-height: 1.575rem;
+}
+.useful-links {
+    padding: .7rem 2rem;
+    border-left: .125rem solid var(--light-blue);
+}
+.useful-links-title {
+    color: var(--primary-text-color);
+    margin-bottom: 1.5rem;
+}
+.key-word-name {
+    color: var(--light-blue);
+}
+.useful-links-box {
+    padding-left: .5rem;
+}
+.useful-link {
+    margin: .5rem 0;
+    font-size: 1.125rem;
+}
+.footer-bottom {
+    margin: 1.5rem 0 1rem;
+}
+.social-platform-title {
+    color: var(--light-blue);
+}
+.social-platforms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-platform {
+    margin-top: 1rem;
+}
+.social-platform-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-platform-image {
+    width: 3rem;
+}
+.social-platform-name {
+    display: inline-block;
+    margin-left: .7rem;
+    font-size: 1.25rem;
+}
+
+/* Copyright Section Styles */
+
+.copyright-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darker-bgc-color);
+}
+.copyright-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem 0;
+}
+.copyright {
+    color: var(--primary-text-color);
+    filter: grayscale(.3);
+}
+.copyright-name {
+    font-family: "Nova Square";
+    color: var(--light-blue);
+    font-size: 1.1rem;
+}
+
 /* Title Styles */
 
 .title {
@@ -115,5 +212,8 @@ header {
 .title4 {
     font-size: 1.5rem;
 }
+
+/* Order classes */
+
 
 /* Unique classes */
