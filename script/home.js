@@ -7,6 +7,6 @@ seeMoreBtn.addEventListener("click", seeMore);
 
 // Functions
 function seeMore () {
-    fourthSect.style.height = "auto";
+    fourthSect.style.height = "105.15rem";
     shadowUp.style.display = "none";
 }
