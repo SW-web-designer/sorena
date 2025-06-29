@@ -1,0 +1,62 @@
+/* Unic Styles of About Me */
+
+.title2 {
+    font-size: 3rem !important;
+    color: var(--primary-text-color);
+}
+.caption {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    text-align: justify;
+    color: var(--caption-text-color);
+}
+
+/* about me styles */
+
+.about-me_short {
+    display: flex;
+    justify-content: center;
+    background-color: var(--lighter-bgc-color);
+}
+.who-am-i_title {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--light-blue);
+}
+.who-am-i {
+    margin: 1rem 0 .6rem;
+}
+
+/* about my education stules */
+
+.about-my-education {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darker-bgc-color);
+}
+.my-education {
+    margin: 1rem 0 .6rem;
+}
+
+/* about my skills styles */
+
+.about-my-skills {
+    display: flex;
+    justify-content: center;
+    background-color: var(--lighter-bgc-color);
+}
+.my-skills {
+    margin: 1rem 0 .6rem;
+}
+
+/* about my interests styles */
+
+.about-my-interests {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darker-bgc-color);
+}
+.my-interests {
+    margin: 1rem 0 .6rem;
+}
