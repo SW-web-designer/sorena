@@ -67,6 +67,9 @@
     flex-wrap: wrap;
 }
 .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 17rem;
     height: 25rem;
     background-color: #202020;
@@ -84,7 +87,6 @@
 }
 .work h4 {
     text-align: center;
-    margin-bottom: 3rem;
     color: #fff;
     text-shadow: 4px 4px 0px var(--darker-bgc-color);
 }
@@ -94,7 +96,6 @@
     color: var(--light-blue);
 }
 .caption {
-    margin-bottom: 2.5rem;
     font-size: 18px;
     text-align: center;
     color: var(--caption-text-color);
@@ -190,6 +191,7 @@
     height: 35rem;
     overflow: hidden;
     position: relative;
+    transition: all .8s ease-in;
 }
 .blog-show-title {
     color: var(--primary-text-color);
